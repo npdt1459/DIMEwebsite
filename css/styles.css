@@ -70,3 +70,16 @@ section {
   background-color: #f9f9f9;
   margin-top: 50px;
 }
+
+.btn-orange {
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.btn-orange:hover {
+  background-color: darkorange;
+  color: white;
+}
