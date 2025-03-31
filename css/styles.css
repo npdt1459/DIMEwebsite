@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+  
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+}
+  
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+.navbar li {
+  margin: 0 15px;
+}
+  
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+  
+.navbar a:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+  
+.navbar-custom {
+  background-color: #F1DDCA;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+  
+.company-banner {
+  margin-top: 20px;
+}
+  
+.company-banner img {
+  max-width: 100px;
+  margin: 0 10px;
+}
+  
+/* Section Styles */
+section {
+  padding: 100px 20px;
+  text-align: center;
+}
+  
+#about, #features, #testimonials, #contact {
+  background-color: #f9f9f9;
+  margin-top: 50px;
+}
