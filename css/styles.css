@@ -25,10 +25,11 @@ header {
 }
   
 .navbar a {
-  color: black; /* Default text color */
+  color: lightblue; /* Default text color */
   text-decoration: none; /* Remove underline */
   padding: 5px 10px; /* Add some padding for better hover effect */
   border-radius: 5px; /* Optional: Rounded corners for hover effect */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
   
 .navbar a:hover {
@@ -77,6 +78,7 @@ section {
   border-radius: 20px;
   padding: 5px 15px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .btn-orange:hover {
