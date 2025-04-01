@@ -26,13 +26,13 @@ header {
 }
   
 .navbar a {
-  color: #FFFFFF; /* Default text color */
+  color: #E6974F; /* Default text color */
   text-decoration: none; /* Remove underline */
   padding: 5px 10px; /* Add some padding for better hover effect */
   border-radius: 5px; /* Optional: Rounded corners for hover effect */
   transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
-  
+
 .navbar a:hover {
   background-color: lightblue; /* Background turns blue on hover */
   color: white; /* Text turns white on hover */
@@ -40,6 +40,27 @@ header {
   
 .navbar-custom {
   background-color: #F1DDCA;
+}
+
+/* Navbar Text Color */
+.navbar-light .nav-link {
+  color: #E6974F !important; /* Replace with your desired text color */
+  font-weight: bold; /* Optional: Make the text bold */
+}
+
+.navbar-light .nav-link:hover {
+  color: #E6974F !important; /* Replace with your desired hover color */
+}
+
+/* Contact Button Styling */
+.navbar-light .btn {
+  background-color: #E6974F; /* Button background color */
+  color: white; /* Button text color */
+}
+
+.navbar-light .btn:hover {
+  background-color: darkorange; /* Button hover background color */
+  color: white; /* Button hover text color */
 }
 
 /* Hero Section */
@@ -58,12 +79,12 @@ header {
 }
   
 .company-banner img {
-  max-width: 100px;
+  max-width: 80px;
   margin: 0 10px;
 }
 
 .banner-image {
-  height: 40px; /* Set a fixed height */
+  height: 30px; /* Set a fixed height */
   width: auto; /* Maintain the original aspect ratio */
   margin: 0 10px; /* Add spacing between images */
 }
@@ -118,4 +139,24 @@ section {
 #services .service-item p {
   font-size: 14px;
   color: #6c757d; /* Muted text color */
+}
+
+#subscribe {
+  background: #F1DDCA;
+  color: #E6974F;
+  margin-bottom: 50px
+}
+
+#subscribe input.form-control {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 15px;
+}
+
+#subscribe button.btn-light {
+  border-radius: 50%;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
