@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #e9e9e9;
 }
   
 header {
@@ -25,7 +26,7 @@ header {
 }
   
 .navbar a {
-  color: rgb(0, 191, 255); /* Default text color */
+  color: #FFFFFF; /* Default text color */
   text-decoration: none; /* Remove underline */
   padding: 5px 10px; /* Add some padding for better hover effect */
   border-radius: 5px; /* Optional: Rounded corners for hover effect */
@@ -86,11 +87,6 @@ section {
   padding: 100px 20px;
   text-align: center;
 }
-  
-#about, #features, #testimonials, #contact {
-  background-color: #f9f9f9;
-  margin-top: 50px;
-}
 
 .btn-orange {
   background-color: orange;
@@ -104,4 +100,22 @@ section {
 .btn-orange:hover {
   background-color: darkorange;
   color: white;
+}
+
+#services .icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#services .service-item h5 {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#services .service-item p {
+  font-size: 14px;
+  color: #6c757d; /* Muted text color */
 }
