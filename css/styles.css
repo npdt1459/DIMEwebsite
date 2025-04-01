@@ -62,9 +62,13 @@ header {
 }
 
 .banner-image {
-  height: 100px; /* Set a fixed height */
+  height: 40px; /* Set a fixed height */
   width: auto; /* Maintain the original aspect ratio */
   margin: 0 10px; /* Add spacing between images */
+}
+
+#company-banner .container {
+  padding: 0 50px; /* Add padding to the left and right edges */
 }
   
 /* Section Styles */
