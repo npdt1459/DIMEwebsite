@@ -160,3 +160,23 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+#works h6 {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+#works h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#works img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#works .btn-outline-primary {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
