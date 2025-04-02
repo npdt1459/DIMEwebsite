@@ -180,3 +180,20 @@ section {
   border-radius: 20px;
   padding: 10px 20px;
 }
+
+footer h6 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .bi {
+  font-size: 20px;
+}
