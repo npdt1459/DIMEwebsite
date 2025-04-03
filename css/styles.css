@@ -223,3 +223,13 @@ footer ul li a:hover {
 footer .bi {
   font-size: 20px;
 }
+
+#company-banner .row > .col {
+  margin-bottom: 15px; /* Add space between rows */
+}
+
+@media (max-width: 576px) {
+  #company-banner .row > .col {
+    margin-bottom: 20px; /* Add more space for smaller screens */
+  }
+}
