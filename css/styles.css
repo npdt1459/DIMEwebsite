@@ -1,6 +1,11 @@
 /* General Styles */
+html, body {
+  margin: 0; /* Remove any default margin from the HTML and body */
+  padding: 0; /* Remove any default padding from the HTML and body */
+  height: 100%; /* Ensure the body spans the full height of the viewport */
+}
+
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #e9e9e9;
 }
@@ -12,12 +17,26 @@ header {
   z-index: 1000;
 }
   
+.navbar-wrapper {
+  position: absolute; /* Position the navbar at the top of the hero */
+  top: 0;
+  left: 0;
+  width: 100%; /* Make the navbar span the full width */
+  z-index: 10; /* Ensure the navbar appears above the hero content */
+}
+
 .navbar {
   display: flex;
   justify-content: center;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  position: absolute; /* Position the navbar at the top of the hero */
+  top: 0; /* Align the navbar to the top of the hero */
+  left: 0; /* Align the navbar to the left edge */
+  width: 100%; /* Ensure the navbar spans the full width */
+  z-index: 10; /* Ensure the navbar appears above the hero content */
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+  border-radius: 0; /* Remove any rounded corners */
 }
   
 .navbar li {
@@ -67,10 +86,18 @@ header {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; /* Center the hero content horizontally */
   align-items: center;
-  background-color: #f4f4f4;
+  background-color: #b9e5ff; /* Ensure the hero background color is consistent */
   text-align: center;
+  position: relative; /* Ensure the navbar is positioned relative to the hero */
+  margin: 0; /* Remove any margin around the hero section */
+  padding: 0; /* Remove any padding around the hero section */
+}
+
+/* Hero Content */
+.hero-content {
+  z-index: 1; /* Ensure the content appears below the navbar */
 }
   
 .company-banner {
