@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Innovation Presentation</title>
+  <link rel="stylesheet" href="finacial.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F1DDCA;">
+      <div class="container-fluid">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand" href="#">
+          <img src="images/Navbar Logo.png" alt="Logo" class="img-fluid" style="height: 50px;">
+        </a>
+
+        <!-- Toggler Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible Navbar Content -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+          </ul>
+          <!-- Contact Button -->
+          <a href="#contact" class="btn" 
+             style="background-color: #E6974F; color: white; border-radius: 20px; padding: 5px 15px; text-decoration: none;"
+             onmouseover="this.style.backgroundColor='darkorange';"
+             onmouseout="this.style.backgroundColor='#E6974F';">
+            Contact
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Business & Financial Content -->
+  <section class="container my-5">
+    <!-- Section 1: Revenue Model -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <h4>Revenue Model</h4>
+        <ul class="custom-bullets">
+          <li><strong>Freemium:</strong> Basic navigation, traffic updates, and transport tracking fee.</li>
+          <li><strong>Subscription:</strong> Premium features including ad-free use, priority support, and AI suggestions.</li>
+          <li><strong>Advertisements:</strong> Local businesses can advertise in the app (basic or premium listings).</li>
+          <li><strong>Transit Commissions:</strong> 1% commission on Leap Card top-ups.</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <img src="images/revenue_model.png" alt="Revenue Model" class="img-fluid rounded">
+      </div>
+    </div>
+
+    <!-- Section 2: Growth Strategy -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <img src="images/growth-strategy.png" alt="Growth Strategy" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h4>Growth Strategy</h4>
+        <ul class="custom-bullets">
+          <li>Launch in Ireland with targeted digital and influencer marketing.</li>
+          <li>Expand to wider European market within 3–5 years.</li>
+          <li>Use freemium model with early adopter discounts to gain traction.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Section 3: Yearly Projection -->
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h4>Projected Revenue (1st Year)</h4>
+        <p>For the first three months, our main revenue will be by angel investors and crowdfunding. By the end of these three months, we aim to have 500 users, with a 10% conversion rate. This gets us started with earning at least €FILL a month in membership fees.</p>
+        <p>Assume 500 users open the app 5 times a day and see 2 interstitial (fullscreen) ads each time: We can expect €1,050 a month in ad revenue. Once we reach 2,000 users, we can expect €4,200 a month.</p>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Month</th>
+              <th>Income</th>
+              <th>Expenses</th>
+              <th>Monthly Cash Flow</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Month 3</td>
+              <td>€1,550</td>
+              <td>€1,065</td>
+              <td>€485</td>
+            </tr>
+            <tr>
+              <td>Month 6</td>
+              <td>€1,500</td>
+              <td>€1,400</td>
+              <td>€100</td>
+            </tr>
+            <tr>
+              <td>Month 12</td>
+              <td>€1,900</td>
+              <td>€1,735</td>
+              <td>€165</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <img src="images/yearly-projection-graph.jpg" alt="Yearly Projection Graph" class="img-fluid rounded">
+      </div>
+    </div>
+  </section>
+
+  <section class="orange-section">
+    <div class="container">
+      <h3>NavRide Premium Pricing</h3>
+      <div class="row justify-content-center">
+        <!-- Monthly -->
+        <div class="col-md-4 mb-4">
+          <div class="card p-4">
+            <h5>Monthly Plan</h5>
+            <p>€4.99/month</p>
+            <ul>
+              <li>✔ Ad-free experience</li>
+              <li>✔ Personalised routes</li>
+              <li>✔ Priority support</li>
+            </ul>
+            <a href="#" class="btn btn-warning">Subscribe</a>
+          </div>
+        </div>
+
+        <!-- Yearly -->
+        <div class="col-md-4 mb-4">
+          <div class="card p-4">
+            <h5>Yearly Plan</h5>
+            <p>€49.99/year</p>
+            <ul>
+              <li>✔ Save 15%</li>
+              <li>✔ All monthly benefits</li>
+              <li>✔ Feature access</li>
+            </ul>
+            <a href="#" class="btn btn-success">Subscribe Annually</a>
+          </div>
+        </div>
+
+        <!-- Early Bird -->
+        <div class="col-md-4 mb-4">
+          <div class="card p-4">
+            <h5>Early Bird Offer</h5>
+            <p>€2.99/month</p>
+            <ul>
+              <li>✔ All premium features</li>
+              <li>✔ Limited time only</li>
+              <li>✔ Cancel anytime</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Try Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-5" style="background-color: #b9e5ff;">
+    <div class="container">
+      <div class="row">
+        <!-- Company Section -->
+        <div class="col-md-4">
+          <h6 class="fw-bold">Company</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark text-decoration-none">About</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Careers</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Press</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Blog</a></li>
+          </ul>
+        </div>
+
+        <!-- Offers Section -->
+        <div class="col-md-4">
+          <h6 class="fw-bold">Offers</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark text-decoration-none">Buy a Gift</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Redeem a Gift</a></li>
+          </ul>
+        </div>
+
+        <!-- Help Section -->
+        <div class="col-md-4">
+          <h6 class="fw-bold">Help</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark text-decoration-none">FAQ</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Contact Us</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Terms</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Privacy Policy</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">CCPA Notice</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Social Media and Copyright -->
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <p class="text-dark mb-0">Copyright © 2025 NavRide. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="#" class="text-dark text-decoration-none me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-dark text-decoration-none me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-dark text-decoration-none"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
