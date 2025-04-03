@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+  
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+}
+  
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+.navbar li {
+  margin: 0 15px;
+}
+  
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+  
+.navbar a:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+  
+.navbar-custom {
+  background-color: #F1DDCA;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+.persona-container, .testimonial-container {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.persona-card, .testimonial-card{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+.why-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    float: none;
+}
+
+.why-card ul {
+  text-align: center;
+  list-style-position: inside;
+  color: #39B5FC
+}
+
+.why-card ul span {
+  color:black
+}
+.persona-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.persona-card h2 {
+    color: #39B5FC;
+    font-size: 14px;
+}
+.highlight {
+    font-weight: bold;
+    color: #39B5FC;
+}
+h2 {
+    color: #E6974F
+}
+h3 {
+    color: #39B5FC
+}
