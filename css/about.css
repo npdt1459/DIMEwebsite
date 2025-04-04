@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e9e9e9;
+}
+
+header {
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #e6974f; /* Default text color */
+  text-decoration: none; /* Remove underline */
+  padding: 5px 10px; /* Add some padding for better hover effect */
+  border-radius: 5px; /* Optional: Rounded corners for hover effect */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+  background-color: lightblue; /* Background turns blue on hover */
+  color: white; /* Text turns white on hover */
+}
+
+.navbar-custom {
+  background-color: #f1ddca;
+}
+
+/* Navbar Text Color */
+.navbar-light .nav-link {
+  color: #e6974f !important; /* Replace with your desired text color */
+  font-weight: bold; /* Optional: Make the text bold */
+}
+
+.navbar-light .nav-link:hover {
+  color: #e6974f !important; /* Replace with your desired hover color */
+}
+
+/* Contact Button Styling */
+.navbar-light .btn {
+  background-color: #e6974f; /* Button background color */
+  color: white; /* Button text color */
+}
+
+.navbar-light .btn:hover {
+  background-color: darkorange; /* Button hover background color */
+  color: white; /* Button hover text color */
+}
+
+.mission-section {
+  background-color: #9cdafe; /* Updated background color */
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.mission-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align content to the left */
+  text-align: left; /* Align text to the left */
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.mission-image {
+  width: 46%; /* Set image width to one-third of the section */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 20px; /* Optional: Add rounded corners to the image */
+}
+.features-section {
+  background-color: #e6974f; /* Updated background color */
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.feature-box {
+  background-color: #f1ddca; /* Updated background color */
+  border-radius: 10px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.feature-box h4 {
+  margin-bottom: 15px;
+  color: #333;
+}
+.feature-box p {
+  color: #666;
+}
+.footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
