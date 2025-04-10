@@ -14,66 +14,49 @@
   </head>
   <body>
     <header>
-      <nav
-        class="navbar navbar-expand-lg navbar-light"
-        style="background-color: #f1ddca"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              src="images/Herolightblue.PNG"
-              alt="Logo"
-              class="img-fluid"
-              style="height: 50px"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="website.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="FinancialPage.html">Financial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="market.html">Market</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="team.html">Our Team</a>
-              </li>
-            </ul>
-            <a
-              href="#contact"
-              class="btn"
-              style="
-                background-color: #e6974f;
-                color: white;
-                border-radius: 20px;
-                padding: 5px 15px;
-                text-decoration: none;
-              "
-              onmouseover="this.style.backgroundColor='darkorange';"
-              onmouseout="this.style.backgroundColor='#E6974F';"
-            >
-              Contact
+      <div class="navbar-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F1DDCA;">
+          <div class="container-fluid">
+            <!-- Navbar Brand -->
+            <a class="navbar-brand" href="#">
+              <img src="images/Navbar Logo.png" alt="Logo" class="img-fluid" style="height: 50px;">
             </a>
+      
+            <!-- Toggler Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <!-- Collapsible Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="website.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="FinancialPage.html">Financials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="market.html">Market</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html">Our Team</a>
+                </li>
+              </ul>
+              <!-- Contact Button -->
+              <a href="contact.html" class="btn" 
+                 style="background-color: #E6974F; color: white; border-radius: 20px; padding: 5px 15px; text-decoration: none;"
+                 onmouseover="this.style.backgroundColor='darkorange';"
+                 onmouseout="this.style.backgroundColor='#E6974F';">
+                Contact
+              </a>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
     <div class="mission-section">
       <div class="container">
